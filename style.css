@@ -1,0 +1,29 @@
+/* main tags */
+body {
+    background-color: lightblue;
+    color: #E4E4E4;
+    font-family: monospace;
+}
+
+p, b, i, cite, strong, nav, ul, li, pre {
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: greenyellow;
+    color: black;
+    font-family: serif;
+}
+
+hr {
+    height: 6px;  
+    background-color: fuchsia;  
+    border: none;
+}
+
+a {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
