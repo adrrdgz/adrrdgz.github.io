@@ -6,14 +6,26 @@
     <title>personal website of adrian rodriguez</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
-      body {
-        background-color: #ffffff;
-        color: #000000;
-        font-family: sans-serif;
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #000000;
+          color: #00ffff;
+        }
+        a {
+          color: #00ffff;
+        }
       }
-      
-      a {
-        color: #dc143c;
+      @media (prefers-color-scheme: light) {
+        body {
+          background-color: #ffffff;
+          color: #000000
+        }
+        a {
+          color: #dc143c;
+        }
+      }
+      body {
+        font-family: sans-serif;
       }
     </style>
   </head>
